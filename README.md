@@ -11,7 +11,7 @@ In this work, we propose a comprehensive approach to address various real-world 
 3. Dynamic matching thresholds to enhance robustness and scalability
 
 ## Step 1: Face Detection & Feature Extraction
-1. For initial face localization, we apply an object detection model (**MTCNN**) that can handle variations in in pose, lighting, and occlusions. This step isolates faces from backgrounds, providing normalized images for consistent feature extraction. <br>
+1. For initial face localization, we apply an object detection model (**MTCNN**) that can handle variations in pose, lighting, and occlusions. This step isolates faces from backgrounds, providing normalized images for consistent feature extraction. <br>
    <img src="/MTCNN_architecture.png" alt="MTCNN Architecture" width="400"/>
    <img src="/mtcnn_image.png" alt="feature extraction" height="360">
    
